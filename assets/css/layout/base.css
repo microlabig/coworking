@@ -1,0 +1,11 @@
+body {
+    font-family: 'gotham', Helvetica, sans-serif;
+    line-height: 1.45;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: antialiased;    
+}
+
+* {
+    box-sizing: border-box; 
+}
