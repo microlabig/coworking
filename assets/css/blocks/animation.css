@@ -1,0 +1,27 @@
+@keyframes rot{
+    from{
+        opacity: 0;
+        transform: scale(.2);        
+    }
+
+    20%{
+        opacity: 1;
+    }
+
+    40% {
+        transform: scale(1) rotate(10deg);       
+    }
+   
+    60%{
+        transform:0;        
+    }    
+
+    80%{
+        transform:rotate(-10deg);
+    }
+
+    to{
+        
+    }
+}
+

@@ -51,16 +51,17 @@
 
 .pagination__item:first-child{
     border-radius: 3px;
-    background-color: #27273e;
-    
+    background-color: #27273e;    
 }
 
 .pagination__item:first-child .pagination__link{
     color: #ec1e79;
+    transition: color .4s;
 }
 
 .pagination__link:hover{
     color: #ec1e79;
+    transition: color .4s;
 }
 
 .wrapper--main .pagination__item:first-child .pagination__link{
