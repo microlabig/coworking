@@ -1,4 +1,4 @@
-.formrequest{     
+.formrequest{ 
     margin-bottom:50px;   
 }
 
@@ -7,7 +7,8 @@
     background-color: #f5f5f5;
     width:700px;
     border-radius: 3px;
-    margin: 0 auto;
+
+    margin:0 auto 50px 0;
 }
 
 .form__title{
@@ -62,7 +63,7 @@
 }
 
 .form__elem-input:focus{
-    border-color: #3366cc;
+    border-color: #ff3366;
 }
 
 .form__elem-textarea{
@@ -116,7 +117,7 @@
     width: 0;
     height: 0;
     border-radius: 50%;
-    background-color:#3366cc;
+    background-color:#ff3366;
     
     position: absolute;
     top: 50%;
@@ -127,7 +128,7 @@
 }
 
 .form__radio-input:checked + .form__radio-fake{
-    border: 1px solid #3366cc;
+    border: 1px solid #ff3366;
 }
 
 .form__radio-input:checked + .form__radio-fake:after{
@@ -144,7 +145,7 @@
 .button{
     display: inline-block;    
     padding: 15px 20px;
-    background-color: #3366cc;
+    background-color: #27273e;
     outline: none;
     cursor: pointer;
 
@@ -168,22 +169,14 @@
 .button__img{
     content: "";
     display: inline-block;
-    vertical-align: middle;
-    
-    background-image: url("../../img/sprites.png");    
-    width: 15px; height: 14px;
-    background-position: -201px -10px;    
+    vertical-align: middle;   
 }
 
 .button:hover {
     background-color: white;
-    color: #3366cc;
+    color: #ff3366;
 }
 
-.button:hover .button__img{
-    width: 15px; height: 14px;
-    background-position: -166px -10px;
-}
 
 /* Новый макет */
 

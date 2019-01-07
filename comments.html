@@ -16,7 +16,9 @@
 
             <header class="header">
                 <div class="header__container">
-                    <div class="logo"></div>
+                    <div class="logo">
+                        <div class="logo__img"></div>
+                    </div>
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
                         <div class="contacts__dropshedule">
@@ -30,37 +32,48 @@
                 </div>
             </header>
 
-            <div class="banner"></div>
-
             <div class="container">
 
                 <aside class="sidebar">
                     <div class="discont">
                         <div class="discont__block">
-                            Для наших новых клиентов мы предлагаем <span class="discont__value">скидку 50%</span> на
-                            первый день!
-                            Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                            <div class="discont__text">
+                                Для наших новых клиентов мы предлагаем <span class="discont__value">скидку 50%</span>
+                                на
+                                первый день!
+                                Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                            </div>
                         </div>
                     </div>
 
                     <div class="social">
                         <div class="social__header">Наши социальные сети</div>
                         <ul class="social__list">
-                            <li class="social__list-item"><a href="https://www.vk.com/" class="social__img">
+                            <li class="social__list-item">
+                                <a href="https://www.vk.com/" class="social__img social__img--vk">
                                     <div class="social__img-word">Вконтакте</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://www.facebook.com/" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://www.facebook.com/" class="social__img social__img--fb">
                                     <div class="social__img-word">Facebook</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://plus.google.com/?hl=ru" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://plus.google.com/?hl=ru" class="social__img social__img--google">
                                     <div class="social__img-word">Google+</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://twitter.com/" class="social__img">
-                                    <div class="social__img-word">Twitter</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="mailto:igor-rock@list.ru" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://twitter.com/" class="social__img social__img--tw">
+                                    <div class="social__img-word tw">Twitter</div>
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="mailto:igor-rock@list.ru" class="social__img social__img--email">
                                     <div class="social__img-word">E-mail</div>
-                                </a></li>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </aside>
@@ -70,9 +83,15 @@
                     <nav class="menu">
                         <div class="menu__container">
                             <ul class="menu__list">
-                                <li class="menu__list-item"><a href="./workadium.html" class="menu__link">Главная</a></li>
-                                <li class="menu__list-item menu__list-item--active"><a href="./comments.html" class="menu__link">Отзывы</a></li>
-                                <li class="menu__list-item"><a href="./prices.html" class="menu__link">Тарифы</a></li>
+                                <li class="menu__list-item">
+                                    <a href="./workadium.html" class="menu__link menu__link--main">Главная</a>
+                                </li>
+                                <li class="menu__list-item menu__list-item--active">
+                                    <a href="./comments.html" class="menu__link menu__link--review">Отзывы</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="./prices.html" class="menu__link menu__link--tarifs">Тарифы</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -83,7 +102,7 @@
                             <ul class="content__list">
                                 <li class="content__list-item">
                                     <div class="content__img-container">
-                                        <img src="" alt="Олег Павлов" class="content__img">
+                                        <img src="./assets/img/comments/comment1.jpg" alt="Олег Павлов" class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2016-10-12">12.10.2016</time>
@@ -99,7 +118,7 @@
 
                                 <li class="content__list-item">
                                     <div class="content__img-container">
-                                        <img src="" alt="Эрнест Изиль" class="content__img">
+                                        <img src="./assets/img/comments/comment2.jpg" alt="Эрнест Изиль" class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2016-02-01">01.02.2016</time>
@@ -115,8 +134,8 @@
                                 </li>
 
                                 <li class="content__list-item">
-                                    <div class="content__img-container">
-                                        <img src="" alt="Елена Сургай" class="content__img">
+                                    <div class="content__img-container--noavatar">
+                                        <img src="../../" alt="Елена Сургай" class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2015-12-22">22.12.2015</time>
@@ -134,7 +153,7 @@
 
                                 <li class="content__list-item">
                                     <div class="content__img-container">
-                                        <img src="" alt="Наталья Осадчая" class="content__img">
+                                        <img src="./assets/img/comments/comment4.jpg" alt="Наталья Осадчая" class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2015-08-14">14.08.2015</time>
@@ -240,14 +259,18 @@
     </div>
 
     <footer class="footer">
-        <div class="copyright">
-            <div class="copyright__description">
-                Сделано с любовью и старанием
-                на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__colleft-shool">LoftSchool</a>.
-                Автор работы: <a href="https://vk.com/igorbezmestin" class="footer__colleft-autor">Безместин Игорь</a>
+        <div class="footer__container">
+            <div class="copyright">
+                <div class="copyright__description">
+                    Сделано с любовью и старанием
+                    на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__colleft-shool">LoftSchool</a>.
+                    Автор работы: <a href="https://vk.com/igorbezmestin" class="footer__colleft-autor">Безместин Игорь</a>
+                </div>
+            </div>
+            <div class="logo">
+                <div class="logo__img"></div>
             </div>
         </div>
-        <div class="logo"></div>
     </footer>
 
 </body>

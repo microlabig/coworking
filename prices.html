@@ -16,7 +16,9 @@
 
             <header class="header">
                 <div class="header__container">
-                    <div class="logo"></div>
+                    <div class="logo">
+                        <div class="logo__img"></div>
+                    </div>
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
                         <div class="contacts__dropshedule">
@@ -30,8 +32,6 @@
                 </div>
             </header>
 
-            <div class="banner"></div>
-
             <div class="container">
 
                 <aside class="sidebar">
@@ -40,38 +40,32 @@
                         <ul class="partners__list">
                             <li class="partners__list-item">
                                 <div class="partners__img-block">
-                                    <img src="" alt="" class="partners__img">
-                                    <span class="partners__description">Винтер-Канцелярия</span>
+                                    <img src="./assets/img/partners/winter.png" alt="Винтер-Канцелярия" class="partners__img">                                    
                                 </div>
                             </li>
                             <li class="partners__list-item">
                                 <div class="partners__img-block">
-                                    <img src="" alt="" class="partners__img">
-                                    <span class="partners__description">Тишкин</span>
+                                    <img src="./assets/img/partners/tishkin.png" alt="Тишкин" class="partners__img">
                                 </div>
                             </li>
                             <li class="partners__list-item">
                                 <div class="partners__img-block">
-                                    <img src="" alt="" class="partners__img">
-                                    <span class="partners__description">Drop</span>
+                                    <img src="./assets/img/partners/drop.png" alt="Drop" class="partners__img">
                                 </div>
                             </li>
                             <li class="partners__list-item">
                                 <div class="partners__img-block">
-                                    <img src="" alt="" class="partners__img">
-                                    <span class="partners__description">Библиотека "Анна Ахматова"</span>
+                                    <img src="./assets/img/partners/anna.png" alt="Библиотека Анна Ахматова" class="partners__img">
                                 </div>
                             </li>
                             <li class="partners__list-item">
                                 <div class="partners__img-block">
-                                    <img src="" alt="" class="partners__img">
-                                    <span class="partners__description">Пуфок</span>
+                                    <img src="./assets/img/partners/pufok.png" alt="Пуфок" class="partners__img">
                                 </div>
                             </li>
                             <li class="partners__list-item">
                                 <div class="partners__img-block">
-                                    <img src="" alt="" class="partners__img">
-                                    <span class="partners__description">Авантаж</span>
+                                    <img src="./assets/img/partners/avantage.png" alt="Авантаж" class="partners__img">
                                 </div>
                             </li>
                         </ul>
@@ -80,21 +74,31 @@
                     <div class="social">
                         <div class="social__header">Наши социальные сети</div>
                         <ul class="social__list">
-                            <li class="social__list-item"><a href="https://www.vk.com/" class="social__img">
+                            <li class="social__list-item">
+                                <a href="https://www.vk.com/" class="social__img social__img--vk">
                                     <div class="social__img-word">Вконтакте</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://www.facebook.com/" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://www.facebook.com/" class="social__img social__img--fb">
                                     <div class="social__img-word">Facebook</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://plus.google.com/?hl=ru" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://plus.google.com/?hl=ru" class="social__img social__img--google">
                                     <div class="social__img-word">Google+</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://twitter.com/" class="social__img">
-                                    <div class="social__img-word">Twitter</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="mailto:igor-rock@list.ru" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://twitter.com/" class="social__img social__img--tw">
+                                    <div class="social__img-word tw">Twitter</div>
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="mailto:igor-rock@list.ru" class="social__img social__img--email">
                                     <div class="social__img-word">E-mail</div>
-                                </a></li>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </aside>
@@ -104,43 +108,61 @@
                     <nav class="menu">
                         <div class="menu__container">
                             <ul class="menu__list">
-                                <li class="menu__list-item"><a href="./workadium.html" class="menu__link">Главная</a></li>
-                                <li class="menu__list-item"><a href="./comments.html" class="menu__link">Отзывы</a></li>
-                                <li class="menu__list-item menu__list-item--active"><a href="./prices.html" class="menu__link">Тарифы</a></li>
+                                <li class="menu__list-item">
+                                    <a href="./workadium.html" class="menu__link menu__link--main">Главная</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="./comments.html" class="menu__link menu__link--review">Отзывы</a>
+                                </li>
+                                <li class="menu__list-item menu__list-item--active">
+                                    <a href="./prices.html" class="menu__link menu__link--tarifs">Тарифы</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
 
                     <div class="tarifs">
-                        <h2 class="tarifs__title">Тарифы</h2>
+                        <h1 class="tarifs__title">Тарифы</h1>
                         <ul class="tarifs__list">
 
                             <li class="tarifs__list-item">
-                                <div class="tarifs__img-block">
-                                    <img src="" alt="Один" class="tarifs__image">
-                                    <p class="tarifs__name">&laquo;Один&raquo;</p>
+                                <div class="tarifs__block">
+                                    <div class="tarifs__image-block">
+                                        <img src="./assets/img/price/odin.jpg" alt="Один" class="tarifs__img">  
+                                    </div>                                  
+                                    <div class="tarifs__name">
+                                        <p class="tarifs__name-text">&laquo;Один&raquo;</p>
+                                    </div>
                                 </div>
-                                <div class="tarifs__price">800 руб/мес или 100 руб/сутки</div>
+                                <div class="tarifs__price">800 руб/мес <br>или 100 руб/сутки</div>
                                 <div class="tarifs__description">Оплачивается рабочее место на 1 человека. Есть
                                     возможность оплаты с привязкой к определенному физическому месту. При оплате за
                                     год, скидка 30%.</div>
                             </li>
 
                             <li class="tarifs__list-item">
-                                <div class="tarifs__img-block">
-                                    <img src="" alt="Трое" class="tarifs__image">
-                                    <p class="tarifs__name">&laquo;Трое&raquo;</p>
+                                <div class="tarifs__block">
+                                    <div class="tarifs__image-block">
+                                        <img src="./assets/img/price/troe.jpg" alt="Трое" class="tarifs__img">
+                                    </div>
+                                    <div class="tarifs__name">
+                                        <p class="tarifs__name-text">&laquo;Трое&raquo;</p>
+                                    </div>
                                 </div>
-                                <div class="tarifs__price">1 500 руб/мес или 200 руб/сутки</div>
+                                <div class="tarifs__price">1 500 руб/мес <br>или 200 руб/сутки</div>
                                 <div class="tarifs__description">Оплачивается стол на 3 рабочих места. При этом можно
                                     ими пользоваться как одновременно, так и поочередно. Можно пользоваться офисной
                                     техникой и выделенным шкафом для документов.</div>
                             </li>
 
                             <li class="tarifs__list-item">
-                                <div class="tarifs__img-block">
-                                    <img src="" alt="10-10" class="tarifs__image">
-                                    <p class="tarifs__name">&laquo;10-10&raquo;</p>
+                                <div class="tarifs__block">
+                                    <div class="tarifs__image-block">
+                                        <img src="./assets/img/price/10-10.jpg" alt="10-10" class="tarifs__img">
+                                    </div>
+                                    <div class="tarifs__name">
+                                        <p class="tarifs__name-text">&laquo;10-10&raquo;</p>
+                                    </div>
                                 </div>
                                 <div class="tarifs__price">10 000 руб/мес</div>
                                 <div class="tarifs__description">Оплачивается 10 рабочих мест на любые 10 дней месяца.
@@ -149,10 +171,14 @@
                             </li>
 
                             <li class="tarifs__list-item">
-                                <div class="tarifs__img-block">
-                                    <img src="" alt="Безлимит на одного" class="tarifs__image">
-                                    <p class="vip">vip</p>
-                                    <p class="tarifs__name">&laquo;Безлимит на одного&raquo;</p>
+                                <div class="tarifs__block">
+                                    <div class="tarifs__image-block">
+                                        <img src="./assets/img/price/bezlimit_one.jpg" alt="Безлимит на одного" class="tarifs__img">
+                                    </div>
+                                    <div class="tarifs__name">
+                                        <p class="vip">vip</p>
+                                        <p class="tarifs__name-text">&laquo;Безлимит на одного&raquo;</p>
+                                    </div>
                                 </div>
                                 <div class="tarifs__price">2 500 руб/мес</div>
                                 <div class="tarifs__description">В стоимость включена не только оплата рабочего места,
@@ -162,10 +188,14 @@
                             </li>
 
                             <li class="tarifs__list-item">
-                                <div class="tarifs__img-block">
-                                    <img src="" alt="Все включено" class="tarifs__image">
-                                    <p class="vip">vip</p>
-                                    <p class="tarifs__name">&laquo;Все включено&raquo;</p>
+                                <div class="tarifs__block">
+                                    <div class="tarifs__image-block">
+                                        <img src="./assets/img/price/all_exclusive.jpg" alt="Все включено" class="tarifs__img">
+                                    </div>
+                                    <div class="tarifs__name">
+                                        <p class="vip">vip</p>
+                                        <p class="tarifs__name-text">&laquo;Все включено&raquo;</p>
+                                    </div>
                                 </div>
                                 <div class="tarifs__price">Цена рассчитывается индивидуально</div>
                                 <div class="tarifs__description">Оплачивается необходимое число рабочих мест с
@@ -174,13 +204,17 @@
                             </li>
 
                             <li class="tarifs__list-item">
-                                <div class="tarifs__img-block">
-                                    <img src="" alt="Переговоры" class="tarifs__image">
-                                    <p class="tarifs__name">&laquo;Переговоры&raquo;</p>
+                                <div class="tarifs__block">
+                                    <div class="tarifs__image-block">
+                                        <img src="./assets/img/price/peregovori.jpg" alt="Переговоры" class="tarifs__img">
+                                    </div>                                        
+                                    <div class="tarifs__name">
+                                        <p class="tarifs__name-text">&laquo;Переговоры&raquo;</p>
+                                    </div>
                                 </div>
                                 <div class="tarifs__price">2 500 руб/час —</div>
                                 <div class="tarifs__description">Аренда среднего зала. Есть возможность раннего
-                                    бронирования конференц-залов со скидкой до 30% при полной предоплате.</div>
+                                    бронирования конференц-залов со скидкой до 30% при полной предоплате.</div>
                             </li>
 
                         </ul>
@@ -194,14 +228,18 @@
     </div>
 
     <footer class="footer">
-        <div class="copyright">
-            <div class="copyright__description">
-                Сделано с любовью и старанием
-                на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__colleft-shool">LoftSchool</a>.
-                Автор работы: <a href="https://vk.com/igorbezmestin" class="footer__colleft-autor">Безместин Игорь</a>
+        <div class="footer__container">
+            <div class="copyright">
+                <div class="copyright__description">
+                    Сделано с любовью и старанием
+                    на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__colleft-shool">LoftSchool</a>.
+                    Автор работы: <a href="https://vk.com/igorbezmestin" class="footer__colleft-autor">Безместин Игорь</a>
+                </div>
+            </div>
+            <div class="logo">
+                <div class="logo__img"></div>
             </div>
         </div>
-        <div class="logo"></div>
     </footer>
 
 </body>

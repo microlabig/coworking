@@ -1,0 +1,14 @@
+.logo{
+    display: block;
+    width: 110px;
+    height: 55px;
+}
+
+.logo__img{    
+    background-image: url('../../img/logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    
+    height:100%;
+}

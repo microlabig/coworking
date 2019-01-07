@@ -1,0 +1,88 @@
+
+.contacts__dropshedule{
+    position: relative;
+    
+    display: inline-block;
+    text-align: right;
+}
+
+.contacts__dropshedule:hover .contacts__dropshedule-container{
+    opacity: 1;
+    right: 0;
+}
+
+.contacts__dropshedule-description{
+    font-size: 14px;
+    font-weight: bold;
+    color:rgba(236, 30, 121, 0.7);
+    text-decoration: underline;
+}
+.contacts__dropshedule:hover .contacts__dropshedule-description{
+    color:rgba(102, 102, 153, 1);
+}
+
+.contacts__dropshedule-container{
+    display: inline-block;  
+    position: absolute;
+
+    width: 165px;   
+
+    cursor: default;
+    
+    text-align: left;
+
+    top:150%;    
+    right: -9999px;
+    padding: 10px 9px;
+    
+    background-color:white;
+    border-radius: 3px;
+    box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+    
+    opacity: 0;
+    transition: opacity .4s;
+}
+
+.contacts__dropshedule-container div{
+    cursor: text;
+}
+
+.contacts__dropshedule-container:after{
+    content:"";
+    display: inline-block;
+    position: absolute;
+
+    width: 100%;
+    height: 30px;
+    right: 0;
+    bottom: 100%;
+}
+
+.contacts__dropshedule-container:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+
+    width: 0;
+    height: 0;
+    border: 8px solid transparent; 
+    border-bottom: 8px solid white; 
+    
+    right: 5px;
+    bottom:100%;
+}
+
+.contacts__dropshedule-work{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ec1e79;
+
+    margin-bottom: 5px;
+}
+
+.contacts__dropshedule-break{
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+

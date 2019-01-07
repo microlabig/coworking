@@ -1,0 +1,123 @@
+.menu{
+    margin-bottom: 30px;
+}
+
+.menu__list{
+    list-style: none;
+    display: flex;
+}
+
+.menu__list-item{
+    margin-left: 95px;
+}
+
+.menu__list-item:first-child{
+    margin-left: 0;
+}
+
+.menu__link{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+
+    color:#ec1e79;
+
+    vertical-align: middle;
+}
+
+.menu__list-item--active .menu__link, .menu__list-item:hover .menu__link {
+    color: black;
+}
+
+
+.menu__link:before{
+    content: "";
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    
+    margin-right: 18px;
+
+    vertical-align: middle;
+    
+    background-image: url('../../img/sprites.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu__link--main:before{
+    width: 17px; height: 15px;
+    background-position: -47px -86px;
+}
+.menu__link--review:before{
+    width: 20px; height: 18px;
+    background-position: -50px -10px;
+}
+.menu__link--tarifs:before{
+    width: 19px; height: 16px;
+    background-position: -90px -10px;
+}
+
+.menu__list-item:hover .menu__link--main:before{
+    width: 17px; height: 15px;
+    background-position: -10px -86px;
+}
+.menu__list-item--active .menu__link--review:before, .menu__list-item:hover .menu__link--review:before{
+    width: 20px; height: 18px;
+    background-position: -10px -10px;
+}
+.menu__list-item--active .menu__link--tarifs:before, .menu__list-item:hover .menu__link--tarifs:before{
+    width: 19px; height: 16px;
+    background-position: -50px -48px;
+}
+
+/* .wrapper--main */
+
+.wrapper--main .menu{
+    margin-bottom: 0px;
+}
+
+.wrapper--main .menu__list-item--active .menu__link--main{
+    color:#ec1e79;
+}
+.wrapper--main .menu__link--review, .wrapper--main .menu__link--tarifs{
+    color:#fff;
+}
+
+.wrapper--main .menu__link--review:before{
+    width: 20px; height: 18px;
+    background-position: -10px -48px;
+}
+.wrapper--main .menu__link--tarifs:before{
+    width: 19px; height: 16px;
+    background-position: -90px -46px;
+}
+
+.wrapper--main .menu__list-item:hover .menu__link--review, 
+.wrapper--main .menu__list-item:hover .menu__link--tarifs{
+    color:#ec1e79;
+}
+
+.wrapper--main .menu__list-item:hover .menu__link--main:before{
+    width: 17px; height: 15px;
+    background-position: -47px -86px;
+}
+
+.wrapper--main .menu__list-item:hover .menu__link--review:before{
+    width: 20px; height: 18px;
+    background-position: -50px -10px;
+}
+
+.wrapper--main .menu__list-item:hover .menu__link--tarifs:before{
+    width: 19px; height: 16px;
+    background-position: -90px -10px;
+}
+

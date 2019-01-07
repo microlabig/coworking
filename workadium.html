@@ -11,16 +11,35 @@
 
 <body>
 
-    <div class="wrapper">
+    <div class="wrapper wrapper--main">
         <div class="wrapper__content">
 
             <header class="header">
                 <div class="header__container">
-                    <div class="logo"></div>
+                    <div class="logo">
+                        <div class="logo__img"></div>
+                    </div>
+
+                    <nav class="menu">
+                        <div class="menu__container">
+                            <ul class="menu__list">
+                                <li class="menu__list-item menu__list-item--active">
+                                    <a href="./workadium.html" class="menu__link menu__link--main">Главная</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="./comments.html" class="menu__link menu__link--review">Отзывы</a>
+                                </li>
+                                <li class="menu__list-item">
+                                    <a href="./prices.html" class="menu__link menu__link--tarifs">Тарифы</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
                         <div class="contacts__dropshedule">
-                            <span class="contacts__dropshedule-description">График работы</span>
+                            <div class="contacts__dropshedule-description">График работы</div>
                             <div class="contacts__dropshedule-container">
                                 <div class="contacts__dropshedule-work">пн-вс: 09:00-20:00</div>
                                 <div class="contacts__dropshedule-break">обед: 14:00-14:30</div>
@@ -30,17 +49,11 @@
                 </div>
             </header>
 
-            <nav class="menu">
-                <div class="menu__container">
-                    <ul class="menu__list">
-                        <li class="menu__list-item menu__list-item--active"><a href="./workadium.html" class="menu__link">Главная</a></li>
-                        <li class="menu__list-item"><a href="./comments.html" class="menu__link">Отзывы</a></li>
-                        <li class="menu__list-item"><a href="./prices.html" class="menu__link">Тарифы</a></li>
-                    </ul>
-                </div>
-            </nav>
 
-            <div class="banner"></div>
+
+            <div class="banner">
+                <img src="./assets/img/banner.jpg" alt="" class="banner__img">
+            </div>
 
             <div class="container">
 
@@ -50,30 +63,46 @@
                         <div class="tarifs__name">Уникальность</div>
                         <div class="tarifs__description">Создан для вашего комфортного отдыха</div>
                         <ul class="tarifs__list">
-                            <li class="tarifs__list-item">Кофе/чай</li>
-                            <li class="tarifs__list-item">Шкаф (5 кг)</li>
-                            <li class="tarifs__list-item">Рабочее место</li>
+                            <li class="tarifs__list-item">
+                                <div class="tarifs__item-text">Кофе/чай</div>
+                            </li>
+                            <li class="tarifs__list-item">
+                                <div class="tarifs__item-text">Шкаф (5 кг)</div>
+                            </li>
+                            <li class="tarifs__list-item">
+                                <div class="tarifs__item-text">Рабочее место</div>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="social">
                         <div class="social__header">Наши социальные сети</div>
                         <ul class="social__list">
-                            <li class="social__list-item"><a href="https://www.vk.com/" class="social__img">
+                            <li class="social__list-item">
+                                <a href="https://www.vk.com/" class="social__img social__img--vk">
                                     <div class="social__img-word">Вконтакте</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://www.facebook.com/" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://www.facebook.com/" class="social__img social__img--fb">
                                     <div class="social__img-word">Facebook</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://plus.google.com/?hl=ru" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://plus.google.com/?hl=ru" class="social__img social__img--google">
                                     <div class="social__img-word">Google+</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="https://twitter.com/" class="social__img">
-                                    <div class="social__img-word">Twitter</div>
-                                </a></li>
-                            <li class="social__list-item"><a href="mailto:igor-rock@list.ru" class="social__img">
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="https://twitter.com/" class="social__img social__img--tw">
+                                    <div class="social__img-word tw">Twitter</div>
+                                </a>
+                            </li>
+                            <li class="social__list-item">
+                                <a href="mailto:igor-rock@list.ru" class="social__img social__img--email">
                                     <div class="social__img-word">E-mail</div>
-                                </a></li>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </aside>
@@ -86,7 +115,7 @@
                             <ul class="content__list">
                                 <li class="content__list-item">
                                     <div class="content__img-container">
-                                        <img src="" alt="Черная дыра скидок!" class="content__img">
+                                        <img src="./assets/img/feed/feed1.jpg" alt="Черная дыра скидок!" class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2016-10-12">12.10.2016</time>
@@ -104,7 +133,8 @@
 
                                 <li class="content__list-item">
                                     <div class="content__img-container">
-                                        <img src="" alt="Заражай друзей, получай призы!" class="content__img">
+                                        <img src="./assets/img/feed/feed2.jpg" alt="Заражай друзей, получай призы!"
+                                            class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2016-02-01">01.02.2016</time>
@@ -119,7 +149,8 @@
 
                                 <li class="content__list-item">
                                     <div class="content__img-container">
-                                        <img src="" alt="Новое рабочее место для бизнесменов." class="content__img">
+                                        <img src="./assets/img/feed/feed3.jpg" alt="Новое рабочее место для бизнесменов."
+                                            class="content__img">
                                     </div>
                                     <div class="content__text">
                                         <time datetime="2015-12-22">22.12.2015</time>
@@ -178,14 +209,18 @@
     </div>
 
     <footer class="footer">
-        <div class="copyright">
-            <div class="copyright__description">
-                Сделано с любовью и старанием
-                на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__colleft-shool">LoftSchool</a>.
-                Автор работы: <a href="https://vk.com/igorbezmestin" class="footer__colleft-autor">Безместин Игорь</a>
+        <div class="footer__container">
+            <div class="copyright">
+                <div class="copyright__description">
+                    Сделано с любовью и старанием
+                    на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__colleft-shool">LoftSchool</a>.
+                    Автор работы: <a href="https://vk.com/igorbezmestin" class="footer__colleft-autor">Безместин Игорь</a>
+                </div>
+            </div>
+            <div class="logo">
+                <div class="logo__img"></div>
             </div>
         </div>
-        <div class="logo"></div>
     </footer>
 
 </body>

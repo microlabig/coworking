@@ -5,5 +5,28 @@
 @import url('../css/blocks/intro.css');
 
 
+@import url('../css/blocks/header.css');
+@import url('../css/blocks/logo.css');
+@import url('../css/blocks/contacts.css');
+@import url('../css/blocks/dropshedule.css');
+
+@import url('../css/blocks/menu.css');
+
+@import url('../css/blocks/banner.css');
+
+@import url('../css/blocks/socials.css');
+
+@import url('../css/blocks/content.css');
+
+@import url('../css/blocks/partners.css');
+
+@import url('../css/blocks/price.css');
+
+@import url('../css/blocks/discont.css');
+
+@import url('../css/blocks/pagination.css');
+
+@import url('../css/blocks/footer.css');
+
 @import url('../css/blocks/form.css');
 

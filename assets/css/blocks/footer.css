@@ -1,0 +1,30 @@
+.footer{
+    background-color: #27273e;
+    color: white; 
+    height: 77px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 77px;
+
+    padding: 0 23px;
+}
+
+.copyright{
+    width:27%;
+}
+
+.footer__colleft-shool,.footer__colleft-autor{
+    color: white;
+    font-weight: bold;
+}
+
+.footer__colleft-autor{
+    text-decoration: none;
+}

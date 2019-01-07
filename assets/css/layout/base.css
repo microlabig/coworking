@@ -14,3 +14,56 @@ html,
 body {
     height: 100%;
 }
+
+h1{
+    font-weight: bold;
+    font-size: 49px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color:#221f1f;
+}
+
+h1,h2,p{
+    margin: 0 auto;
+}
+
+ul, li{
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    overflow: hidden;    
+    min-width:1200px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__content{
+    flex:1;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 26%;
+    display: inline-block;
+    vertical-align: top;   
+    
+    padding: 0 22px;
+}
+
+.page-content {    
+    width: 74%;
+    display: inline-block;
+    vertical-align: top;     
+}
