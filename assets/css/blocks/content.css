@@ -1,9 +1,9 @@
 .content{
-    margin-bottom: 40px;
+    margin-bottom: 52px;
 }
 
 .content__header {
-    margin-bottom: 30px;
+    margin-bottom: 55px;
 }
 
 .content__list-item{
@@ -17,9 +17,9 @@
 
 .content__list-item{
     border-bottom: 2px solid #f5f5f5;
-    padding-bottom: 24px;
-
-    margin-bottom: 30px;
+    
+    padding-bottom: 23px;
+    margin-bottom: 20px;
 }
 
 .content__list-item:last-child{
@@ -37,6 +37,7 @@
     overflow: hidden;
     object-fit: contain;
 }
+
 
 .content__img{
     max-width: 100%;
@@ -102,5 +103,42 @@ time {
 }
 
 .content__title{
-    margin: 15px auto 20px auto;
+    margin: 0 auto 10px auto;
+}
+
+/* .content--review */
+
+.content--review .content__img-container{
+    width: 160px;
+    height: 160px;
+
+    margin-bottom: 32px;
+}
+
+.content--review .content__header{
+    margin-bottom: 19px;
+}
+
+.content--review .content__text{
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.content--review .content__description{
+    line-height: 28px;
+}
+
+.content--review .content__list-item{
+    padding-bottom: 29px;
+    margin-bottom: 16px;
+}
+
+.content--review .content__img-container--noavatar{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 32px;
+}
+
+.content--review {
+    margin-bottom: 25px;
 }

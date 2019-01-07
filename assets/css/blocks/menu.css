@@ -1,5 +1,5 @@
 .menu{
-    margin-bottom: 30px;
+    margin-bottom: 13px;
 }
 
 .menu__list{
@@ -16,6 +16,9 @@
 }
 
 .menu__link{
+    display: inline-block;
+    vertical-align: middle;
+
     text-decoration: none;
     text-transform: uppercase;
 
@@ -24,8 +27,6 @@
     letter-spacing: 1.2px;
 
     color:#ec1e79;
-
-    vertical-align: middle;
 }
 
 .menu__list-item--active .menu__link, .menu__list-item:hover .menu__link {
@@ -36,7 +37,8 @@
 .menu__link:before{
     content: "";
     display: inline-block;
-
+    vertical-align: middle;
+    
     width: 20px;
     height: 20px;
     

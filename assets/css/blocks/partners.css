@@ -3,7 +3,7 @@
     text-align: center;
     border: 1px solid #e8e9ed;
 
-    margin-bottom: 29px;
+    margin-bottom: 24px;
 }
 
 .partners__title{
@@ -11,21 +11,22 @@
     font-size: 18px;
     font-weight: bold;
 
-    margin:27px auto 51px auto;
+    margin: 22px auto 44px auto;
 }
 
 .partners__list{
-    list-style: none;
-    margin-bottom: 36px; 
+    list-style: none;     
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+
+    margin-bottom: 36px;
 }
 
 .partners__list-item{
-    margin-bottom: 44px;
+    margin-bottom: 38px;
 }
 
 .partners__list-item:last-child{

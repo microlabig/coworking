@@ -1,11 +1,10 @@
-.discont{
-    margin-bottom: 30px;
-}
-
 .discont{    
     position: relative;
     
     background-color: #27273e;
+
+    margin-top: 13px;
+    margin-bottom: 28px;
 }
 
 .discont__text{
@@ -16,7 +15,7 @@
     font-weight: normal;
     text-align: center;
     color: white;
-    padding: 30px 5px;
+    padding: 23px 5px;
 }
 
 .discont__block:before{

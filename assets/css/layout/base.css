@@ -55,7 +55,7 @@ ul, li{
 }
 
 .sidebar {
-    width: 26%;
+    width: 27%;
     display: inline-block;
     vertical-align: top;   
     
@@ -63,7 +63,7 @@ ul, li{
 }
 
 .page-content {    
-    width: 74%;
+    width: 73%;
     display: inline-block;
     vertical-align: top;     
 }

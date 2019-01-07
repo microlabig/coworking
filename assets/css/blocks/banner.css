@@ -5,10 +5,10 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .banner__img{    
-    max-width: 100%;
+    width: 1200px;
     max-height: 100%;
 }
